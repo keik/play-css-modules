@@ -28,7 +28,7 @@ test: node_modules
 
 lint: node_modules
 	@echo $(TAG)$@$(END)
-	$(NPM)/eslint 'src/**/*.js'
+	$(NPM)/eslint 'src/**/*.{js,jsx}'
 
 clean:
 	@echo $(TAG)$@$(END)

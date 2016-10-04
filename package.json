@@ -17,7 +17,9 @@
   "homepage": "https://github.com/keik/play-css-modules#readme",
   "description": "",
   "dependencies": {
+    "brace": "^0.8.0",
     "react": "^15.3.2",
+    "react-ace": "^3.6.0",
     "react-dom": "^15.3.2"
   },
   "devDependencies": {
