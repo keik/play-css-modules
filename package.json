@@ -19,6 +19,11 @@
   "dependencies": {
     "autoprefixer": "^6.5.0",
     "brace": "^0.8.0",
+    "postcss": "^5.2.4",
+    "postcss-modules-extract-imports": "^1.0.1",
+    "postcss-modules-local-by-default": "^1.1.1",
+    "postcss-modules-parser": "^1.1.0",
+    "postcss-modules-scope": "^1.0.2",
     "react": "^15.3.2",
     "react-ace": "^3.6.0",
     "react-dom": "^15.3.2"
