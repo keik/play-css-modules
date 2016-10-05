@@ -20,7 +20,7 @@ watch: node_modules
 public/bundle.js: node_modules
 	@echo $(TAG)$@$(END)
 	mkdir -p public
-	$(NPM)/browserify $(BROWSERIFY_OPTS) -o public/bundle.js
+	NODE_ENV=production $(NPM)/browserify $(BROWSERIFY_OPTS) | $(NPM)/uglifyjs -mc warnings=false > public/bundle.js
 
 test: node_modules
 	@echo $(TAG)$@$(END)
